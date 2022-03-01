@@ -8,7 +8,7 @@ import Myproject from "./Home/Myproject";
 import Skill from "./Home/Skill";
 import { ThemeProvider } from "next-themes";
 
-export default function Home() {
+export default function index() {
   return (
     <>
       <ThemeProvider attribute="class">
