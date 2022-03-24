@@ -49,7 +49,7 @@ export default function Navbuttom() {
   return (
     <>
       <section className="md:hidden xs:block  fixed inset-x-0 bottom-0 z-10 shadow">
-        <nav className="flex items-center justify-center  bottom-2 flex-wrap  p-6  ">
+        <nav className="flex items-center justify-center  bottom-1 flex-wrap  p-6  ">
           <div className="border rounded-full py-4 px-6 grid grid-cols-5 gap-8 sm:gap-20  bg-gray-900 text-3xl sm:text-5xl text-slate-300">
             <div className="cursor-pointer hover:scale-110" onClick={showHome}>
               <AiFillHome />

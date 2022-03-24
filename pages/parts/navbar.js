@@ -79,9 +79,9 @@ export default function navbar() {
       <section className="xs:hidden md:block">
         <nav className="flex items-center justify-between flex-wrap dark:bg-gray-900 bg-white p-6 border dark:border-none shadow-lg font-sans ">
           <div className="flex-1 items-center flex-shrink-0 text-white md:ml-20 ">
-            <p className="font-bold text-xl text-indigo-900 dark:text-white">
+            <p className="font-bold text-xl text-indigo-900 dark:text-white font-poppins">
               N.Pro
-              <span className="font-bold text-xl text-indigo-700 dark:text-indigo-500">
+              <span className="font-bold text-xl text-indigo-700 dark:text-indigo-500 font-poppins">
                 ject
               </span>
             </p>
@@ -123,7 +123,7 @@ export default function navbar() {
               <li>
                 <Link href="/#home">
                   <a
-                    className="font-medium text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
+                    className="font-medium font-poppins text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
                     onClick={showHome}
                   >
                     Home
@@ -134,7 +134,7 @@ export default function navbar() {
               <li>
                 <Link href="/#About">
                   <a
-                    className="font-medium text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
+                    className="font-medium font-poppins text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
                     onClick={showAbout}
                   >
                     About
@@ -144,7 +144,7 @@ export default function navbar() {
               <li>
                 <Link href="/#project">
                   <a
-                    className="font-medium text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
+                    className="font-medium font-poppins text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
                     onClick={showProject}
                   >
                     Project
@@ -154,7 +154,7 @@ export default function navbar() {
               <li>
                 <Link href="/#skill">
                   <a
-                    className="font-medium text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
+                    className="font-medium font-poppins text-indigo-900 hover:text-indigo-700 hover:underline dark:text-white dark:hover:text-slate-400"
                     onClick={showSkill}
                   >
                     Skill
@@ -171,7 +171,7 @@ export default function navbar() {
               </li>
               <li className="sm:mt-0 xs:mt-6">
                 <Link href="/About">
-                  <a className="font-medium text-white sm:ml-4    bg-indigo-900 hover:bg-indigo-700 shadow-lg rounded-xl px-6 py-2 ">
+                  <a className="font-medium font-poppins text-white sm:ml-4    bg-indigo-900 hover:bg-indigo-700 shadow-lg rounded-xl px-6 py-2 ">
                     Contact
                   </a>
                 </Link>

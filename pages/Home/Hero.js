@@ -56,10 +56,10 @@ export default function Hero() {
 
   switch (resolvedTheme) {
     case "light":
-      hero = "/images/malam2.svg";
+      hero = "/images/img-hero2.png";
       break;
     case "dark":
-      hero = "/images/malam3.svg";
+      hero = "/images/img-hero2.png";
       break;
     default:
       hero =
@@ -72,27 +72,27 @@ export default function Hero() {
         <div className="grid sm:grid-cols-2 xs:grid-cols-1   sm:gap-4 xs:gap-1  h-screen">
           <Fade right>
             <div className="grid  sm:hidden xs:block ">
-              <div className="mt-20">
+              <div className="mt-20 ">
                 <Image src={hero} width={600} height={300} />
               </div>
             </div>
           </Fade>
           <Fade left>
             <div className="ml-24 xs:ml-6  sm:mt-20 xs:mt-0 sm:ml-20 sm:mr-20">
-              <h1 className=" font-bold text-indigo-900 sm:mt-20 xs:mt-2 sm:text-3xl xs:text-2xl dark:text-white">
+              <h1 className=" font-bold text-indigo-900 sm:mt-20 xs:mt-2 sm:text-3xl xs:text-2xl dark:text-white font-poppins">
                 Hi, I am
               </h1>
-              <h1 className=" font-bold text-indigo-700 mt-2 sm:text-6xl xs:text-4xl dark:text-slate-300">
+              <h1 className=" font-bold text-indigo-700 mt-2 sm:text-6xl xs:text-4xl dark:text-slate-300 font-poppins">
                 Nanda Wahyudi
               </h1>
-              <h1 className=" font-bold text-indigo-800 mt-2 text-3xl dark:text-white">
+              <h1 className=" font-bold text-indigo-800 mt-2 text-3xl dark:text-white font-poppins">
                 Web Developer
               </h1>
               <div className="mt-7">
                 <a href="" className="mr-4 hover:w-96">
                   <Image src={email} width={40} height={40} />
                 </a>
-                <a href="" className="mr-4">
+                <a href="https://github.com/nadws" className="mr-4">
                   <Image src={github} width={40} height={40} />
                 </a>
                 <a href="" className="mr-4">
@@ -109,8 +109,8 @@ export default function Hero() {
             </div>
           </Fade>
           <Fade right>
-            <div className="mr-10  justify-items-center mt-14 hidden sm:block">
-              <div>
+            <div className="mr-6  justify-items-center mt-14 hidden sm:block">
+              <div className=" grid place-content-center ">
                 <Image src={hero} width={500} height={500} />
               </div>
             </div>
