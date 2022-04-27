@@ -90,7 +90,7 @@ export default function Hero() {
                 Web Developer
               </h1>
               <div className="mt-7">
-                <a href="" className="mr-4 hover:w-96">
+                <a href="mailto: nandw567@gmail.com" className="mr-4 hover:w-96">
                   <Image src={email} width={40} height={40} />
                 </a>
                 <a href="https://github.com/nadws" className="mr-4">
