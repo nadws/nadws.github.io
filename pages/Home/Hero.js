@@ -69,11 +69,12 @@ export default function Hero() {
   return (
     <>
       <section className="mb-2">
-        <div className="grid sm:grid-cols-2 xs:grid-cols-1   sm:gap-4 xs:gap-1  h-screen">
+        <div className="grid  sm:grid-cols-2 xs:grid-cols-1   sm:gap-4 xs:gap-1  h-screen">
           <Fade right>
-            <div className="grid  sm:hidden xs:block ">
+            <div className="grid  justify-items-center sm:hidden xs:block ">
               <div className="mt-20 ">
-                <Image src={hero} width={600} height={300} />
+              
+                <Image src={hero} width={400} height={400} />
               </div>
             </div>
           </Fade>
