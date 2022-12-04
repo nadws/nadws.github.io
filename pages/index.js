@@ -21,13 +21,14 @@ export default function index() {
             rel="stylesheet"
           />
         </Head>
-
-        <Navbuttom />
-        <Navbar />
-        <Hero />
-        <Introduction />
-        <Myproject />
-        <Skill />
+        <body className="bg-white dark:bg-gradient-to-br dark:from-[#042b68] dark:via-[#050d22] dark:to-[#04204f]">
+          <Navbuttom />
+          <Navbar />
+          <Hero />
+          <Introduction />
+          <Myproject />
+          <Skill />
+        </body>
       </ThemeProvider>
     </>
   );
